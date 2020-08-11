@@ -1,12 +1,12 @@
 # Image Quality Assessment
 
 In this repository we implement several visual quality algorithms (FR-IQA indices) and apply them to the images of 
-the Tampere Image Database 2013 (TID2013) ([website] [https://qualinet.github.io/databases/image/tampere_image_database_tid2013/])
+the Tampere Image Database 2013 (TID2013) https://qualinet.github.io/databases/image/tampere_image_database_tid2013/
 to generate a data set with the values each index quantify for each image.
 Then calculate several correlation and concordance coefficients between the generated data and the Mean Opinion Score 
 (MOS) values of TID2013 images. Finally we rank the indices according to their overall performance.
 
-IQA_indices.py implements the Mean Square Error (MSE), Signal to Noise Ratio (SNR), Peak Signal to Noise Ratio (PSNR) and Weighted Signal to Noise 
+*IQA_indices.py* implements the Mean Square Error (MSE), Signal to Noise Ratio (SNR), Peak Signal to Noise Ratio (PSNR) and Weighted Signal to Noise 
 Ratio (WSNR), the Universal Quality Index (UQI), the Structural Similarity Index (SSIM) and Multi-scale Structural Similarity Index (MSSIM), Noise 
 Quality Measure (NQM), Visual Information Fidelity (VIF), the Gradient Magnitude Similarity Mean (GMSM), the Gradient Magnitude Similarity 
 Deviation (GMSD) and the codispersion coefficient based CQ-Index
@@ -21,14 +21,14 @@ the use of this code can avoid the dependency of Matlab in open-sources projects
 
 All authors of algorithms and them articles are properly cited in "References" section of this document.
 
-In the Scripts folder are the scripts to generate the data, implementations of the correlation and concordance coefficients, 
+In the **Scripts** folder are the scripts to generate the data, implementations of the correlation and concordance coefficients, 
 routines to compute them with this data, as well as the index ranking.
 
-Data folder contains all the generated dataframes.
+**Data** folder contains all the generated dataframes.
 
-In Results are the tables with the results each correlation and concordance coefficient produced.
+In **Results** are the tables with the results each correlation and concordance coefficient produced.
 
-In Plots there is a jupyter-notebook to make some graphs with the data.
+In **Plots** there is a jupyter-notebook to make some graphs with the data.
 
 ## License
 Released under [GNU GPL version 2.](http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt)
