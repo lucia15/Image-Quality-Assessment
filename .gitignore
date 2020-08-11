@@ -1,1 +1,9 @@
+
+# ignore notebook checkpoints
 /Plots/.ipynb_checkpoints
+
+
+# ignore images 
+/Plots/MOS_hist.png
+/Plots/scatterplots.png
+/Plots/scatterplots2.png
