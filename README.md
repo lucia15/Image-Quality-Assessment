@@ -6,6 +6,8 @@ to generate a data set with the values each index quantify for each image.
 Then calculate several correlation and concordance coefficients between the generated data and the Mean Opinion Score 
 (MOS) values of TID2013 images. Finally we rank the indices according to their overall performance.
 
+All this process can be replicated for any set of quality indices.
+
 *IQA_indices.py* implements the Mean Square Error (MSE), Signal to Noise Ratio (SNR), Peak Signal to Noise Ratio (PSNR) and Weighted Signal to Noise 
 Ratio (WSNR), the Universal Quality Index (UQI), the Structural Similarity Index (SSIM) and Multi-scale Structural Similarity Index (MSSIM), Noise 
 Quality Measure (NQM), Visual Information Fidelity (VIF), the Gradient Magnitude Similarity Mean (GMSM), the Gradient Magnitude Similarity 
@@ -21,8 +23,7 @@ the use of this code can avoid the dependency of Matlab in open-sources projects
 
 All authors of algorithms and them articles are properly cited in "References" section of this document.
 
-In the **Scripts** folder are the scripts to generate the data, implementations of the correlation and concordance coefficients, 
-routines to compute them with this data, as well as the index ranking.
+In the **Scripts** folder are the scripts to generate the data, implementations of the correlation and concordance coefficients, routines to compute them, as well as the index ranking.
 
 **Data** folder contains all the generated dataframes.
 
