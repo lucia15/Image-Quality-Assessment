@@ -56,28 +56,37 @@ Tampere Image Database 2013 (TID2013)
 "Image database tid2013: Peculiarities, results and perspectives" Signal Processing: Image Communication 30, pp 57-77, 2014
 
 Structural Similarity Index (SSIM)
+
 Z. Wang, A. C. Bovik, H. R. Sheikh, and E. P. Simoncelli, "Image quality assessment: From error visibility to structural similarity" IEEE Transactions on Image Processing, vol. 13, no. 4, pp.600-612, Apr. 2004
 
 Multi-scale SSIM Index (MSSIM)
+
 Z. Wang, A. C. Bovik, H. R. Sheikh, and E. P. Simoncelli, "Image quality assessment: From error visibility to structural similarity" IEEE Transactions on Image Processing, vol. 13, no. 4, pp.600-612, Apr. 2004
 
 Noise Quality Measure (NQM)
+
 N. Damera-Venkata, T. Kite, W. Geisler, B. Evans and A. Bovik, "Image Quality Assessment Based on a Degradation Model", IEEE Trans. on Image Processing, Vol. 9, No. 4, Apr. 2000
 
 Universal Image Quality Index (UQI)
+
 Zhou Wang and Alan C. Bovik, "A Universal Image Quality Index", IEEE Signal Processing Letters, 2001
 
 Visual Information Fidelity (VIF)
+
 H. R. Sheikh and A. C. Bovik, "Image Information and Visual Quality"., IEEE Transactions on Image Processing, (to appear).
 
 Weighted Signal-to-Noise Ratio (WSNR)
+
 T. Mitsa and K. Varkur, "Evaluation of contrast sensitivity functions for the formulation of quality measures incorporated in halftoning algorithms", ICASSP '93-V, pp. 301-304.
 
 Signal-to-Noise Ratio (SNR, PSNR)
+
 J. Mannos and D. Sakrison, "The effects of a visual fidelity criterion on the encoding of images", IEEE Trans. Inf. Theory, IT-20(4), pp. 525-535, July 1974
 
 CQ-index (CQ)
+
 Ojeda Silvia M., Vallejos Ronny O., Lamberti Pedro W., 2012. Measure of similarity between images based on the codispersion coefficient. Journal of Electronic Imaging. 
 
 Gradient magnitude similarity measures (GMSM, GMSD)
+
 Xue W., Zhang L., Mou X., and Bovik A. C., 2014. Gradient magnitude similarity deviation: A highly efficient perceptual image quality index. IEEE Trans. Image Process., vol. 23, no. 2, pp. 684-695.
